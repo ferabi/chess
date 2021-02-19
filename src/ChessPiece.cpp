@@ -1,9 +1,9 @@
 #pragma once
-#include "headers/ChessPiece.hpp"
+#include "../headers/ChessPiece.hpp"
 
-explicit ChessPiece::ChessPiece
-    (const Row row, const Col col):
-        m_row(row),m_col(col)
+explicit ChessPiece::ChessPiece(
+    const Row row, const Col col):
+    m_row(row),m_col(col)
 {}
 
 Row ChessPiece::getRow(const ChessPiece& piece)
