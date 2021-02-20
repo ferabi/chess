@@ -19,6 +19,7 @@ class ChessPiece{
 
         //Column of the ChessPiece
         Col m_col;
+
     public:
 
         //Explicit initialisation through constructor
@@ -39,7 +40,7 @@ class ChessPiece{
 
         //move takes the row and column, to which to 
         //move the ChessPiece
-        virtual move(const Row, const Col) = 0;
+        virtual void move(const Row, const Col) = 0;
 
         //Destructor for the ChessPiece
         ~ChessPiece();

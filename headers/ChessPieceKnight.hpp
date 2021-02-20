@@ -1,8 +1,8 @@
 #pragma once
 #include "ChessPiece.hpp"
-/*    Pawn class is derieved from class ChessPiece
+/*    Knight class is derieved from class ChessPiece
  * */
-Class Pawn : public ChessPiece
+Class Knight : public ChessPiece
 {
     void move(const Row,const Col);
 };
