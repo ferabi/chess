@@ -1,5 +1,5 @@
 #pragma once
-#include "../headers/ChessPiece.hpp"
+#include "../headers/chess_piece/ChessPiece.hpp"
 
 explicit ChessPiece::ChessPiece(
     const Row row, const Col col):

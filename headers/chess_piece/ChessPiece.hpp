@@ -12,7 +12,7 @@ enum struct Col{zero_col,one,two,three,four,five,six,seven,eight};
  * */
 class ChessPiece{
 
-    private:
+    protected:
 
         //Row of the ChessPiece
         Row m_row;
