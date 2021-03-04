@@ -5,7 +5,7 @@
  *     2) Column number -int
  *     3) ChessPiece pointer pointing to a specific chess piece 
  * */
-
+#pragma once
 #include <memory>
 
 class ChessCell
