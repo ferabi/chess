@@ -18,7 +18,7 @@ class ChessCell
         const int m_column;
 
         //m_chessPiece is the chess_piece the cell holds
-        ChessPiece& m_chessPiece;
+        ChessPiece* m_chessPiece;
 
     public:
         explicit ChessCell(int,int,ChessPiece&);
